@@ -27,7 +27,8 @@ class Project extends React.Component {
           </div>
           <div className='Wrapper'>
             <img src={FlappyBird} alt="" className='pic'/>
-            <p>使用原生JS编写的一款FlappyBird游戏，通过该小游戏的编写，熟悉了DOM中的各个API</p>
+            <p>实现了一个简易画板，包括绘画，放大，取色器，拖拽等功能，使用canvas绘制，
+              以节省内存提高性能， 后端自动保存图片状态，服务器重启不会丢失</p>
             <div className='tool'>
               <a href='https://github.com/cliYao/Pixel-Painter' className='link'>
                 <img src={Github} alt=""/>
@@ -37,7 +38,7 @@ class Project extends React.Component {
           <div className='Wrapper'>
             <img src={Leetcode} alt="" className='pic'/>
             <p>为了提升自己的JS基础功,培养自己的编程思维和算法能力,
-              我通过刷Leetcode来进行训练,目前已经通过217题,通过刷Leetcode让我对后端数据
+              我通过刷Leetcode来进行训练,目前已经通过215题,通过刷Leetcode让我对后端数据
               的处理得到了提升，我的编程思维也日渐逻辑化.</p>
             <div className='tool'>
               <a href='https://leetcode.com/cliyao/' className='link'>
